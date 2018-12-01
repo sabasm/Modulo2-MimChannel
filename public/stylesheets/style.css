@@ -1,8 +1,43 @@
+*{
+  margin: 0;
+  padding:0;
+}
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-
+.bodycontainer{
+  padding-top: 8rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  background-color: white;
+}
 a {
   color: #00B7FF;
+}
+
+.topbar{
+  height: 7rem;
+  background-color: white;
+  justify-content: space-between;
+  top: 0;
+}
+.bottombar{
+  height: 10rem;
+  justify-content: space-around;
+  bottom: 0; 
+}
+.bottombar ,.topbar{
+  width:100%;
+  display:flex;
+  flex-direction: column wrap;
+  position: fixed;
+  background-color: white;
+  align-items: center;
+
+
+}
+.topbar img ,.bottombar img{
+  width: 5.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
