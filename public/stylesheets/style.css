@@ -3,14 +3,14 @@
   padding:0;
 }
 body {
-  padding: 50px;
   font: 14px "Roboto", Helvetica, Arial, sans-serif;
 }
 .bodycontainer{
   padding-top: 8rem;
-  padding-left: 1.2rem;
-  padding-right: 1.2rem;
+  padding-left: 1em;
+  padding-right: 1rem;
   background-color: white;
+  width: 100%;
 }
 a {
   color: #00B7FF;
@@ -54,11 +54,11 @@ a {
 }
 
 .meme img{
-  width: 400px;
+  width: 100%;
 }
 
 .titulo{
-  font-size: 3em;
+  font-size: 5em;
   margin: 40px 0;
 }
 
