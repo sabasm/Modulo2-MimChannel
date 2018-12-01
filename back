@@ -1,0 +1,54 @@
+body {
+  padding: 50px;
+  font: 14px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin-right: auto;
+
+}
+
+.meme img{
+  width: 400px;
+}
+
+.titulo{
+  font-size: 3em;
+  margin: 40px 0;
+}
+
+.footer{
+  
+}
+
+.share{
+  display: flex;
+}
+
+.autor{
+  font-size: 2em;
+}
+
+.likes{
+  font-size: 2em;
+  color: lightgray;
+}
+
+
+
+<div class="card">
+  <div class="titulo">VIVIENDO EL IRONHACK</div>
+  <div class="meme"><img src="/img/meme.png" alt=""></div>
+  <div class="footer">
+      <p class="autor">1200 👍🏻</p><p class="likes"> #ironhack #hackaton #stress #lloro</p>
+  </div>  
+</div>
