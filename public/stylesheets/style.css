@@ -3,7 +3,8 @@
   padding:0;
 }
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 50px;
+  font: 14px "Roboto", Helvetica, Arial, sans-serif;
 }
 .bodycontainer{
   padding-top: 8rem;
@@ -40,4 +41,40 @@ a {
   width: 5.5rem;
   margin-left: 3rem;
   margin-right: 3rem;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin-right: auto;
+
+}
+
+.meme img{
+  width: 400px;
+}
+
+.titulo{
+  font-size: 3em;
+  margin: 40px 0;
+}
+
+.footer{
+  
+}
+
+.share{
+  display: flex;
+}
+
+.autor{
+  font-size: 2em;
+}
+
+.likes{
+  font-size: 2em;
+  color: lightgray;
 }
